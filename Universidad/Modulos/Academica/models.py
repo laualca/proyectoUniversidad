@@ -62,7 +62,7 @@ class Matricula(models.Model):
     curso = models.ForeignKey(Curso, null=False, blank=False, on_delete=models.CASCADE)
     
     def __str__(self):
-        txt = "{0} matriculad{1} en el curso {2} / Fecha: {3}"
+        txt = "{0} esta matriculad{1} en el curso {2} / Fecha: {3}"
         if self.estudiante.sexo == 'F':
             letraSexo = "a"
         else:

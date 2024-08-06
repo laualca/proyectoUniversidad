@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Universidad.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Universidad/Modulos/Academica/plantillas'], #Ruta de la carpeta templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
